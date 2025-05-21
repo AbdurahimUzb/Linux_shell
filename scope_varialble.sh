@@ -1,12 +1,4 @@
 #!/bin/bash
 
-name="Abdurahim"
-
-myfunction () {
-    echo $name
-    location="Uzbekistan"
-}
-
-myfunction
-
-echo $location
+echo "Argument 1: $1"
+echo "Argument 2: $2"
